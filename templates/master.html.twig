@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Home{% endblock %}</title>
+        <link rel="favicon" href="{{ asset('images/logos/mgcodeur-logo.svg') }}" type="image/x-icon" />
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,34 @@
+.tabler-icon {
+
+    &.thin svg{
+        stroke-width: 1;
+    }
+
+    &.normal svg{
+        stroke-width: 1.5;
+    }
+
+    &.thick svg{
+        stroke-width: 2;
+    }
+
+    &.tabler-sz-1 svg{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    &.tabler-sz-2 svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &.tabler-sz-3 svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &.tabler-sz-4 svg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

@@ -1,0 +1,10 @@
+.user-details {
+    font-weight: 400;
+    & li {
+        margin-bottom: .5rem;
+    }
+    & li span {
+        color: lighten($color: $body-color, $amount: 20%);
+        text-transform: uppercase;
+    }
+}

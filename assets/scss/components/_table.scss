@@ -1,0 +1,18 @@
+.table {
+    th {
+        font-weight: 500;
+        font-size: 0.875rem;
+        color: $body-color;
+        letter-spacing: 0.06em;
+    }
+
+    border-color: rgba($border-color, $border-opacity);
+
+    &.table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}

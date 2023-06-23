@@ -1,0 +1,20 @@
+@import "variable";
+@import "libs/bootstrap/bootstrap";
+@import "global";
+/* 
+    Components
+    Components > shared 
+    Components > icons    
+*/
+@import "components/card";
+@import "components/table";
+@import "components/shared/navigation";
+@import "components/icons/tabler-icon";
+
+/* Css properties */
+@import "properties/border";
+@import "properties/box-shadow";
+@import "properties/font";
+
+/* Pages */
+@import "pages/user/show";

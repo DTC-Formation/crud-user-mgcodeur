@@ -1,0 +1,26 @@
+.navigation {
+    min-height: 60px;
+    // border-bottom: 1px solid rgba($border-color, $border-opacity);
+    box-shadow: 0 2px 6px rgba($border-color,.14),0 0 transparent,0 0 transparent;
+
+    a {
+        color: $gray-700;
+        text-decoration: none;
+    }
+    
+    & * {
+        font-size: 20px;
+    }
+
+    .navigation-logo span{
+        font-size: 1.875rem;
+    }
+
+    .navigation-logo img {
+        height: 2.5rem;
+    }
+
+    .navigation-menu {
+        list-style: none;
+    }
+}

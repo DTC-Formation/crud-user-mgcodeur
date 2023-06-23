@@ -1,0 +1,33 @@
+index:
+    path: /{wildcard}
+    controller: App\Controller\BaseController::index
+    requirements:
+        wildcard: "^(?!api).*$"
+
+users_index:
+    path: /api/users
+    controller: App\Controller\Api\UserController::index
+    methods: GET
+
+users_delete:
+    path: /api/users/{id}
+    controller: App\Controller\Api\UserController::delete
+    methods: DELETE
+
+# disable csrf protection for this route
+users_store:
+    path: /api/users
+    controller: App\Controller\Api\UserController::store
+    methods: POST
+    options:
+        csrf_protection: false
+
+users_show:
+    path: /api/users/{id}
+    controller: App\Controller\Api\UserController::show
+    methods: GET
+
+users_update:
+    path: /api/users/{id}
+    controller: App\Controller\Api\UserController::update
+    methods: PUT

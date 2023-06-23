@@ -1,0 +1,17 @@
+.card {
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 1.25rem 0.0625rem rgba(0, 0, 0, 0.06), 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.08);
+    border: 0;
+    --bs-card-bg: var(--theme-bg);
+    --bs-card-box-shadow: 0 0.0625rem 0.125rem rgba(56, 65, 74, 0.15);
+
+    &.card-animate {
+        -webkit-transition: all .4s;
+        transition: transform .4s
+    }
+    
+    &.card-animate:hover {
+        -webkit-transform: translateY(calc(-1.5rem / 5));
+        transform: translateY(calc(-1.5rem / 5));
+    }
+}
